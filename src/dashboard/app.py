@@ -11,7 +11,7 @@ df = pd.read_sql_query("SELECT * FROM mercadolivre_items", conn)
 conn.close()
 
 # Layout
-st.title("Pesquisa de Mercado - Tênis Esportivos no Mercado Livre")
+st.title("Pesquisa de Mercado - Tênis Femininos de Corrida no Mercado Livre")
 st.subheader('KPIs principais do sistema')
 col1, col2, col3 = st.columns(3)
 
