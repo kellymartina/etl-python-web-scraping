@@ -16,16 +16,15 @@ Uma ETL em Python para Web Scraping
   <img src="/img/visao_geral.png"  width="60%" height="60%" >
 </div>
 
-<table>
-  <tr>
-    <td align="center"><b>Preço Médio por Marca</b></td>
-    <td align="center"><b>Satisfação por Marca</b></td>
-  </tr>
-  <tr>
-    <td align="center"><img src="/img/preco_marca.png" width="100%"></td>
-    <td align="center"><img src="/img/satisfacao_marca.png" width="100%"></td>
-  </tr>
-</table>
+### Preço Médio por Marca
+<div>
+  <img src="/img/preco_marca.png"  width="50%" height="50%">
+</div>
+
+### Satisfação por Marca
+<div>
+  <img src="/img/satisfacao_marca.png"  width="50%" height="50%">
+</div>
 
 
 ## Uso
