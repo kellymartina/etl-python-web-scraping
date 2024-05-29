@@ -1,22 +1,34 @@
-# Projeto Web Scraping
+# Análise de Mercado: Monitoramento de Preços com Scrapy e Dashboard com Streamlit
+Este projeto realiza o monitoramento de preços de produtos utilizando a biblioteca Scrapy para scraping de dados e exibe os resultados em um dashboard interativo criado com Streamlit.
 
-## Visão Geral
+## Arquitetura
+Uma ETL em Python para Web Scraping
+
+- Extração - Scrapy
+- Transformação e Load - Pandas
+- Dashboard - Streamlit
+- Banco de dados - Postgres
+
+
+## Demonstração do Dashboard 
+### Tela inicial
 <div>
-  <img src="/img/visao_geral.png"  width="70%" height="70%">
+  <img src="/img/visao_geral.png"  width="60%" height="60%" >
 </div>
 
-## Preço Médio por Marca
-<div>
-  <img src="/img/preco_marca.png"  width="50%" height="50%">
-</div>
+<table>
+  <tr>
+    <td align="center"><b>Preço Médio por Marca</b></td>
+    <td align="center"><b>Satisfação por Marca</b></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="/img/preco_marca.png" width="100%"></td>
+    <td align="center"><img src="/img/satisfacao_marca.png" width="100%"></td>
+  </tr>
+</table>
 
-## Satisfação por Marca
-<div>
-  <img src="/img/satisfacao_marca.png"  width="50%" height="50%">
-</div>
 
-
-## Passo a passo
+## Uso
 - Para rodar o web scraping
 
 ```bash
